@@ -9,7 +9,7 @@
  * the current approach.
  * Be sure to cleanup the memory you use. (in other words leak checking is in the grading system.)
  *************************************************************************************************************************************************************/
-
+// ok so i literally dont know whats going on i just found random stuff on the internet ill fix it tmrw ://
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
