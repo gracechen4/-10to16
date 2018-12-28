@@ -10,12 +10,42 @@
  * Be sure to cleanup the memory you use. (in other words leak checking is in the grading system.)
  *************************************************************************************************************************************************************/
 
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+
 int main(int argc, char* argv[])
 {
-  //hi
   //Ensure the input is exists.
+      while(argv[i]!=NULL){
+        printf("\n %s is argv %d ",argv[i],i);
+            i++;
+    }
+
+    printf("\n");
   //Ensure the input is valid.
+       scanf("%d", &menu);
+     if( menu != 1) {
+      printf("Invalid Entry!");
+     } else {
+      printf("Your Menu Option is: %d\n", menu);
+     }
   //Parse the input
+    int i;
+    char num[256];
+    printf ("Enter a number: ");
+    gets(num);
+    i = atoi (num);
+    printf ("The value entered is %d.\n",i);
+    return 0;
   //Print the output
+      printf("What am i doing with my life");
+  
+      int dec = 5;
+      char str[] = "abc";
+      char ch = 's';
+      float pi = 3.14;
+      printf("%d %s %f %c\n", dec, str, pi,  ch);
   //Return -1 if an error occured, printing the error.
+  
 }
